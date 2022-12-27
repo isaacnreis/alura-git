@@ -1,0 +1,59 @@
+.formulario {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+form .input-padrao {
+	display: block;
+	padding: 10px 25px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+form .checkbox {
+	margin: 20px 0;
+
+}
+
+form .enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+form .enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px 0;
+}
+
+table thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+table td, table th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}

@@ -1,0 +1,48 @@
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-mapa, .conteudo-beneficios, .video, .conteudo-produtos, .produtos, .formulario, .conteudo-formulario {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav	{
+		position: static;
+		text-align: center;
+	}
+
+	.titulo-principal, .utensilios, .principal p, .mapa p, .video {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.mapa {
+		padding: 0;
+	}
+
+	.imagem-beneficios {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	.lista-beneficios {
+		width: 100%;
+		margin: 0 auto 10px auto;
+		text-align: center;
+	}
+
+	.produtos li {
+		display: block;
+		margin: 20px 30px;
+		width: auto;
+	}
+
+	.conteudo-formulario {
+		margin: 0 10px;
+	}
+
+	.tabela {
+		margin-left: 10px;	
+	}
+}
